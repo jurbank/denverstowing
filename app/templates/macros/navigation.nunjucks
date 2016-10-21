@@ -1,0 +1,23 @@
+{% macro active(activePage='home') %}
+<div class="fixed">
+  <div class="row bg-grey">
+    <div class="medium-12 columns">
+      <nav class="menu">
+      <h1 class="name"><i class="fi-widget"></i> <a href="/">DENVER TOWING</a></h1>
+      
+      <ul class="inline-list">
+        <li class="{%if activePage == 'home' %} active {% endif %}"><a href="/index.html">Home</a></li>
+        <!-- <li class="{%if activePage == 'services' %} active {% endif %}"><a href="/services.html">Services</a></li> -->
+        <li class="{%if activePage == 'about' %} active {% endif %}"><a href="/about.html">About</a></li>
+        <li class="{%if activePage == 'contact' %} active {% endif %}"><a href="/contact.html">Contact</a></li>
+        <!-- <li class="{%if activePage == 'blog' %} active {% endif %}"><a href="/blog.html">Blog</a></li> -->
+      </ul>}
+      
+      <ul class="inline-list nav-button-group">
+        <li><a href="tel:303.209.9860" data-reveal-id="myModal">CALL US: (303) 209-9860</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</div>
+{% endmacro %}

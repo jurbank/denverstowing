@@ -1,0 +1,15 @@
+{% include 'partials/head.nunjucks' %}
+
+  {% block content %}{% endblock %}  
+
+
+          <div class="row">
+            <div class="medium-12 columns">
+              <p>We look forward to working with you.</p>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+
+{% include 'partials/footer.nunjucks' %}
