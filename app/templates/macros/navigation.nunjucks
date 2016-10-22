@@ -7,7 +7,7 @@
       
       <ul class="inline-list">
         <li class="{%if activePage == 'home' %} active {% endif %}"><a href="/index.html">Home</a></li>
-        <!-- <li class="{%if activePage == 'services' %} active {% endif %}"><a href="/services.html">Services</a></li> -->
+        <li class="{%if activePage == 'services' %} active {% endif %}"><a href="/services.html">Services</a></li>
         <li class="{%if activePage == 'about' %} active {% endif %}"><a href="/about.html">About</a></li>
         <li class="{%if activePage == 'contact' %} active {% endif %}"><a href="/contact.html">Contact</a></li>
         <!-- <li class="{%if activePage == 'blog' %} active {% endif %}"><a href="/blog.html">Blog</a></li> -->

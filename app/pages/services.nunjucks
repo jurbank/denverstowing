@@ -1,0 +1,48 @@
+
+{% extends "layout.nunjucks" %}
+
+{% set title = 'Services' %}
+{% set description = "Welcome to Denver Towing. We're here to help you with roadside assistance, 24 hours a day, seven days a week." %}
+    
+{% block content %}
+
+    {% import 'macros/navigation.nunjucks' as nav %}
+    {{nav.active('services')}}
+
+    <div class="row bg-white push-top">
+      <div class="text-center hero padding40tb" style="background-image: url('images/banner-home.jpg');">
+        <div class="banner-text">
+          <h1>Our Services</h1>       
+        </div>       
+      </div>
+      <div class="medium-12 columns">
+        <div class="main-content">
+          <div class="row padding60tb">
+            <div class="medium-8 medium-centered columns">
+              <h2>We're here to help you with expert and affordible towing services in the Denver area.</h2>
+
+              <p>Our services include:</p>
+
+              <ul>
+                <li>24 Hour towing</li>
+                <li>Flatbed Towing</li>
+                <li>Motorcycle Towing</li>
+                <li>Car Lockout</li>
+                <li>Flat Tire Help</li>
+                <li>Junk Car Disposal</li>
+                <li>Battery jump starts</li>
+                <li>Lockout Service</li>
+                <li>Gas Delivery</li>
+              </ul>
+
+              <p>If you're looking to get in touch with us, <a href="/contact.html">check out our contact page</a>.</p>
+            </div>
+          </div>
+          <hr>
+
+
+{% endblock %}
+
+
+
+
