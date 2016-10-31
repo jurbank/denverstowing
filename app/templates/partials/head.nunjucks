@@ -8,9 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.png"> 
 
-    <meta property="google-site-verification" content="{{settings.googleSiteVerification}}" />
+    {% if index %}
+        <meta property="google-site-verification" content="{{settings.googleSiteVerification}}" />
+    {% endif %}
+
     <!-- <meta property="msvalidate.01" content="{{settings.msVerification}}" /> -->
 
     <!-- build:css styles/vendor.css -->
@@ -23,7 +26,7 @@
     <!-- endbuild -->
     
     <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- <script src="/bower_components/modernizr/modernizr.js"></script> -->
     <!-- endbuild -->
   </head>
   <body>

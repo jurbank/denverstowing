@@ -1,0 +1,196 @@
+{% extends "layout.nunjucks" %}
+{% set title = 'Coverage Areas' %}
+{% set description = "Areas we cover." %}
+{% block content %}
+  {% import 'macros/navigation.nunjucks' as nav %}
+  {{nav.active('coverage')}}
+  <div class="row bg-white push-top">
+    <div class="text-center hero padding40tb" style="background-image: url('images/banner-home.jpg');">
+      <div class="banner-text">
+        <h1>Areas we Cover</h1>
+      </div>
+    </div>
+    <div class="medium-12 columns">
+      <div class="main-content">
+        <div class="row padding60tb">
+          <div class="medium-10 medium-centered columns">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196316.62420694984!2d-105.0136188!3d39.7520655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b80aa231f17cf%3A0x118ef4f8278a36d6!2sDenver%2C+CO!5e0!3m2!1sen!2sus!4v1477873241581" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            
+            <h2>At Denver Towing, we serve Denver And a number of surrounding area’s.</h2>
+
+            <p>Take a look and see the areas below</p>  
+
+            <p>There's nowhere in the surrounding Denver area that we won't cover, if you're outside of Denver and don't think we'll service your area, you'll be suprised.</p>
+
+            <p>If you don't see your area listed, feel free to call us at {{contact.phonePretty}} or <a href="/contact.html">send us a message through our contact form</a></p>
+
+
+            <h3>Denver Neighborhoods</h3>
+            <table style="width: 100%;">
+              <tr>
+                <td>
+                  Alamo Placita <br>
+                  Athmar Park <br>
+                  Auraria <br>
+                  Baker <br>
+                  Barnum <br>
+                  Barnum West <br>
+                  Bear Valley <br>
+                  Belcaro <br>
+                  Berkeley <br>
+                  Burns Brentwood <br>
+                  Capitol Hill <br>
+                  Central Business District <br>
+                  Chaffee Park <br>
+                  Cheesman Park <br>
+                  Cherry Creek <br>
+                  City Park <br>
+                  City Park West <br>
+                  Civic Center <br>
+                  Clayton <br>
+                  Cole <br>
+                  College View / South Platte <br>
+                  Congress Park <br>
+                  Cory-Merrill <br>
+                  Country Club <br>
+                  Crestmoor <br>
+                  Curtis Park <br>
+                  Denver International Airport <br>
+                  East <br>
+                  East Colfax <br>
+                  Elyria-Swansea <br>
+                  Five Points <br>
+                  Fort Logan <br>
+                  Gateway / Green Valley Ranch  <br>
+                  Globeville <br>
+                </td>
+                <td>
+                  Golden Triangle <br>
+                  Goldsmith <br>
+                  Hale <br>
+                  Hampden <br>
+                  Hampden Heights <br>
+                  Hampden South <br>
+                  Harvey Park <br>
+                  Harvey Park South <br>
+                  Highland <br>
+                  Hilltop <br>
+                  Indian Creek <br>
+                  Jefferson Park <br>
+                  Kennedy <br>
+                  Lincoln Park <br>
+                  LoDo <br>
+                  Lowry <br>
+                  Mar Lee <br>
+                  Marston <br>
+                  Mayfair <br>
+                  Montbello <br>
+                  Montclair <br>
+                  Non-official Neighborhoods <br>
+                  North <br>
+                  North Capitol Hill <br>
+                  North Park Hill <br>
+                  Northeast <br>
+                  Northeast Park Hill <br>
+                  Northside <br>
+                  Northwest <br>
+                  Overland <br>
+                  Park Hill <br>
+                  Parkfield  <br>
+                  Platt Park <br>
+                  Regis <br>
+                </td>
+                <td>
+                  RiNo <br>
+                  Rosedale <br>
+                  Ruby Hill <br>
+                  Skyland <br>
+                  Sloan Lake <br>
+                  South <br>
+                  South Park Hill <br>
+                  Southeast <br>
+                  Southmoor Park <br>
+                  Southwest <br>
+                  Speer <br>
+                  Stapleton <br>
+                  Sun Valley <br>
+                  Sunnyside <br>
+                  Union Station <br>
+                  University <br>
+                  University Hills <br>
+                  University Park <br>
+                  Uptown <br>
+                  Valverde <br>
+                  Villa Park <br>
+                  Virginia Village <br>
+                  Washington Park <br>
+                  Washington Park <br>
+                  Washington Park West <br>
+                  Washington Virginia Vale <br>
+                  Wellshire <br>
+                  West <br>
+                  West Colfax <br>
+                  West Highland <br>
+                  Westwood <br>
+                  Whittier <br>
+                  Windsor  <br>
+                </td>
+              </tr>
+            </table>
+            <br>
+            <h3>Denver Suburbs</h3>
+            <table style="width: 100%;">
+              <tr>
+                <td>
+                  Arvada <br>
+                  Aurora <br>
+                  Bennett <br>
+                  Berkley <br>
+                  Brighton <br>
+                  Castle Pines <br>
+                  Centennial <br>
+                  Cottonwood <br>
+                  Derby <br>
+                  Dove Valley <br>
+                  East Pleasant View <br>
+                  Edgewater <br>
+                  Evergreen  <br>
+                </td>
+                <td>
+                  Federal Heights <br>
+                  Genesee <br>
+                  Golden <br>
+                  henderson <br>
+                  Highlands Ranch <br>
+                  Idledale <br>
+                  Indian Hills <br>
+                  Indian Hills <br>
+                  Ken Caryl <br>
+                  Kittredge <br>
+                  Lakewood <br>
+                  Leyden <br>
+                  Littleton <br>
+                </td>
+                <td>
+                  Lochbuie <br>
+                  Long Tree <br>
+                  Louviers <br>
+                  Morrison <br>
+                  Northglenn <br>
+                  Parker <br>
+                  Stonegate <br>
+                  Superior <br>
+                  Thornton <br>
+                  Todd Creek <br>
+                  Watkins <br>
+                  Welby <br>
+                  Westminster  <br>
+                </td>
+              </tr>
+            </table>
+
+            <p>If you're looking to get in touch with us, <a href="/contact.html">check out our contact page</a>.</p>
+          </div>
+        </div>
+        <hr>
+      {% endblock %}

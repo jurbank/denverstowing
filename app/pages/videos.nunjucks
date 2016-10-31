@@ -1,0 +1,46 @@
+
+{% extends "layout.nunjucks" %}
+
+{% set title = 'Videos' %}
+{% set description = "Here are some videos for your viewing pelasure" %}
+    
+{% block content %}
+
+    {% import 'macros/navigation.nunjucks' as nav %}
+    {{nav.active('videos')}}
+
+    <div class="row bg-white push-top">
+      <div class="text-center hero padding40tb" style="background-image: url('images/banner-home.jpg');">
+        <div class="banner-text">
+          <h1>Videos</h1>       
+        </div>       
+      </div>
+      <div class="medium-12 columns">
+        <div class="main-content">
+          <div class="row padding60tb">
+            <div class="medium-11 medium-centered columns">
+              <h3>Here are some funny towing videos that will show you how NOT to tow a vehicle!</h3>
+              <p></p>
+              <div class="row">
+                <div class="medium-6 columns">
+                  <iframe style="width: 100%;" height="315" src="https://www.youtube.com/embed/ICpc9XEjG2g" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="medium-6 columns">
+                  <iframe style="width: 100%;" height="315" src="https://www.youtube.com/embed/ESGHqnjYpYE" frameborder="0" allowfullscreen></iframe>
+                </div>                
+              </div>
+
+              <p></p>
+
+              <p>Looking for some real towing help? Give us a <a href="{{contact.phone}}">call: (303) 209-9860</a> or send us an email: <a href="mailto:info.denvertowing@gmail.com">info.denvertowing@gmail.com</a></p>
+
+            </div>
+          </div>
+          <hr>
+
+
+{% endblock %}
+
+
+
+

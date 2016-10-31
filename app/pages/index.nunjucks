@@ -50,7 +50,12 @@
               </ul>
             </div>
           </div>
-          <hr>        
+          <hr>
+          <div class="row">
+           <div class="medium-12 columns">
+            <img src="images/trucks.jpg" alt="Image of trucks">         
+           </div>
+          </div>     
           <div class="row padding20tb">
             <div class="medium-7 columns">
               <h2>We're available 24 hours a day, 7 days a week</h2>
