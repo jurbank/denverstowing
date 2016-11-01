@@ -10,7 +10,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="shortcut icon" href="favicon.png"> 
 
-    {% if index %}
+    {% if isHomePage %}
         <meta property="google-site-verification" content="{{settings.googleSiteVerification}}" />
     {% endif %}
 
