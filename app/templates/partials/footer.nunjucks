@@ -1,7 +1,12 @@
     <footer>
       <div class="row padding40tb">
         <div class="medium-5 columns">
-          <a href="/">DENVER TOWING</a>
+          <p class="footer-address">
+            <a href="/">DENVER TOWING</a><br>
+            9888 W Belleview Ave Ste 2043<br>
+            Denver, CO 80123<br>
+            (720) 573-0526
+          </p>
         </div>
         <div class="medium-5 columns text-left">            
             <ul class="inline-list">
@@ -12,6 +17,11 @@
               <li><a href="/privacy.html">Privacy</a></li>
               <!-- <li><a href="">Blog</a></li> -->
             </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns">
+
         </div>
       </div>
     </footer>

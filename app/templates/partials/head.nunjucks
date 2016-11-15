@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="favicon.png"> 
 
     {% if isHomePage %}
-        <meta property="google-site-verification" content="{{settings.googleSiteVerification}}" />
+        <meta name="google-site-verification" content="{{settings.googleSiteVerification}}" />
     {% endif %}
 
     <!-- <meta property="msvalidate.01" content="{{settings.msVerification}}" /> -->
@@ -23,10 +23,6 @@
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <!-- <script src="/bower_components/modernizr/modernizr.js"></script> -->
     <!-- endbuild -->
   </head>
   <body>
