@@ -1,0 +1,60 @@
+
+{% extends "layout.nunjucks" %}
+
+{% set title = '24 Hour Towing' %}
+{% set description = "Our 24 hour service is our bread and butter. People are always breaking down on the side of the road. We know, it's incredibly frustrating. We're here to help." %}
+    
+{% block content %}
+
+    {% import 'macros/navigation.nunjucks' as nav %}
+    {{nav.active('services')}}
+
+    <div class="row bg-white push-top">
+      <div class="text-center hero padding40tb" style="background-image: url('/images/banner-home.jpg');">
+        <div class="banner-text">
+          <h1>24 Hour Towing</h1>       
+        </div>       
+      </div>
+      <div class="medium-12 columns">
+        <div class="main-content">
+          <div class="row padding60tb">
+            <div class="medium-8 medium-centered columns">
+              <h2>We're used to towing a lot</h2>
+
+              <p>Our 24 hour service is our bread and butter. People are always breaking down on the side of the road. We know, it's incredibly frustrating. That's why we're here. To come immediately to your aide and get you back on your wheels.</p>
+
+              <p>We offer a few different types of towing services. You won't have to worry about picking one, our professionals will choose the best option for your situation. We'll also give you that option if you want to spend a little more money for a safer ride on the flatbed.</p>
+
+              <ul>
+                <li>Wrecker Towing</li>
+                <li>Standard or Rollback Towing</li>
+                <li>Flatbed Towing</li>
+              </ul>
+
+              <p>As listed above, we have a have a number of ways to tow. Here is a list of some common vehicles we tow:</p>
+
+              <ul>
+                <li>Cars</li>
+                <li>Trucks</li>
+                <li>SUVs</li>
+                <li>Minivans</li>
+                <li>ATVs</li>
+                <li>Boats</li>
+                <li>Yachts</li>
+                <li>Large Containers</li>
+                <li>Construction Equipment</li>
+              </ul>
+
+              <p>Are you looking for different service locations? We cover the <a href="/coverage.html">surrounding Denver areas</a>. Just checkout <a href="/coverage.html">our locations page</a>!</p>
+
+              <p>Ready to tow your vehicle? <a href="tel:{{contact.phone}}">Call us</a> or <a href="/contact.html">email us!</a></p>
+            </div>
+          </div>
+          <hr>
+
+
+{% endblock %}
+
+
+
+

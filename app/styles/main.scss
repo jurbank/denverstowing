@@ -17,6 +17,10 @@ a {
   color: #666;
 }
 
+h3 a {
+  text-decoration: none !important;
+}
+
 .row {
 	max-width: 75rem;
 }
@@ -43,8 +47,12 @@ a {
   }  
 }
 
-
-
+.pr0 {
+  padding-right: 0;
+}
+.pl0 {
+  padding-left: 0;
+}
 .bg-white {
 	background: #fff;
 }
