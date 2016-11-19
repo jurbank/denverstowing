@@ -185,7 +185,7 @@ gulp.task('nunjucks', function() {
 });
 
 gulp.task('sitemap', function () {
-    gulp.src('app/*.html', {
+    gulp.src('app/**/*.html', {
             read: false
         })
         .pipe(sitemap({

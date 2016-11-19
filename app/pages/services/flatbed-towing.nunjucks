@@ -1,0 +1,46 @@
+
+{% extends "layout.nunjucks" %}
+
+{% set title = 'Flatbed Towing' %}
+{% set description = "Flatbed towing involves hooking the front wheels onto a triailer by using a hitch, while the back wheels rest on the ground, or in some cases, rest on a set of towing wheels." %}
+    
+{% block content %}
+
+    {% import 'macros/navigation.nunjucks' as nav %}
+    {{nav.active('services')}}
+
+    <div class="row bg-white push-top">
+      <div class="text-center hero padding40tb" style="background-image: url('/images/banner-home.jpg');">
+        <div class="banner-text">
+          <h1>Flatbed Towing</h1>       
+        </div>       
+      </div>
+      <div class="medium-12 columns">
+        <div class="main-content">
+          <div class="row padding60tb">
+            <div class="medium-8 medium-centered columns">
+              <h2>Sometimes, moving your vehicle on a flat bed truck, is a better option.</h2>
+
+              <p>The traditional or most common form of towing is known as dolly towing. It's mostly used for towing front-wheel drive cars. It involves hooking the front wheels onto a trailer by using a hitch, while the back wheels, rest on the ground or in some cases, rest on a set of towing wheels.</p>
+
+              <p>When we say flatbed, we're referring to the flat rear trailer the truck comes with. It's adjusted with hydraulics so it can be brought to the ground level. That way, if the car is still drivable, the driver can inch it forward and drive it up the ramp. In cases where the vehicle is immobile, a winch is attached to the vehicle and the tow truck will pull the vehicle onto the flat bed truck</p>
+
+              <p>The biggest differences between the two common forms of towing is the amount of security each provides. Using a flatbed truck will provide you with the greatest amount of security to transport your vehicle because it doesn't require any adjustments to it's powertrain and also receives less wear from the commute. The only downside to going with a flatbed is the price. Which can be pretty expensive depending on the distance your vehicle needs to go.</p>
+
+              <p>Before you go choose the flatbed option, make sure to consider the cost.</p>
+
+              <p>At Denver towing, we recommend the flatbed option if you can afford it.</p>
+
+              <p><a href="/services.html">Got back to our other services ></a></p>
+
+              <p>Ready to tow your vehicle? <a href="tel:{{contact.phone}}">Call us</a> or <a href="/contact.html">email us!</a></p>
+            </div>
+          </div>
+          <hr>
+
+
+{% endblock %}
+
+
+
+
