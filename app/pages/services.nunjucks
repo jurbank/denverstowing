@@ -43,7 +43,7 @@
                 <h3><a href="/services/flatbed-towing.html">Flatbed Towing</a></h3>
                 <div class="row">
                   <div class="medium-5 large-4 columns show-for-medium-up pr0">                  
-                    <img src="/images/service_flatbed-towing.jpg" alt="Image of night time">
+                    <img src="/images/service_flatbed-towing.jpg" alt="Image of flatbed towing">
                   </div>
                   <div class="medium-7 large-8 columns">
                     <p>The safest way to transport your vehicle. Great for 4 wheel vehicles and other types of heavy machinery like excavators and other earth movers.</p>
@@ -53,9 +53,21 @@
 
                 <hr>
 
+                <h3><a href="/services/motorcycle-towing.html">Motorcycle Towing</a></h3>
+                <div class="row">
+                  <div class="medium-5 large-4 columns show-for-medium-up pr0">                  
+                    <img src="/images/service_motorcycle-towing.jpg" alt="Image of a motorcycle">
+                  </div>
+                  <div class="medium-7 large-8 columns">
+                    <p>We've got the flatbed truck just for your bike. We're not scared of variety, we've seen it call. Just let us know where you're at, and one of our team members will drive out to pick you up.</p>
+                    <p><a href="/services/motorcycle-towing.html">READ MORE</a></p>
+                  </div>
+                </div>
+
+                <hr>                
+
 
               <ul>
-                <li>Motorcycle Towing</li>
                 <li>Car Lockout</li>
                 <li>Flat Tire Help</li>
                 <li>Junk Car Disposal</li>

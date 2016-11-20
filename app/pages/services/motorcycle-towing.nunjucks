@@ -1,0 +1,59 @@
+
+{% extends "layout.nunjucks" %}
+
+{% set title = 'Motorcycle Towing' %}
+{% set description = "Hey there bad boy...or girl...we can help you tow that hog twenty four hours a day." %}
+    
+{% block content %}
+
+    {% import 'macros/navigation.nunjucks' as nav %}
+    {{nav.active('services')}}
+
+    <div class="row bg-white push-top">
+      <div class="text-center hero padding40tb" style="background-image: url('/images/banner-home.jpg');">
+        <div class="banner-text">
+          <h1>Motorcycle Towing</h1>       
+        </div>       
+      </div>
+      <div class="medium-12 columns">
+        <div class="main-content">
+          <div class="row padding60tb">
+            <div class="medium-8 medium-centered columns">
+              <h2>Towing for the boss</h2>
+
+              <p>Hey there bad boy...or girl...we can help you tow that hog, twenty four hours a day.</p>
+
+              <p>With our motorcycle towing service, we can do things a number of ways...we can place it on a standard flat trailer, a motorcycle trailer, or a flatbed. Because of their size, towing motorcycles is typically a cheaper endeavor.</p>
+
+              <p>We'll tow any kind of motorcycle:</p>
+
+              <ul>
+                <li>Street</li>
+                <li>Standard</li>
+                <li>Cruiser</li>
+                <li>Sport bike</li>
+                <li>Touring</li>
+                <li>Sport touring</li>
+                <li>Dual-sport</li>
+                <li>Scooters, underbones and mopeds</li>
+                <li>Off-road</li>
+                <li>Enclosed and feet forwards</li>
+                <li>Utility</li>
+                <li>Tricycles</li>                
+              </ul>
+
+              <p>Let us to that bike...give us a call!</p>
+
+              <p><a href="/services.html">Got back to our other services ></a></p>
+
+              <p>Ready for a tow? <a href="tel:{{contact.phone}}">Call us</a> or <a href="/contact.html">email us!</a></p>
+            </div>
+          </div>
+          <hr>
+
+
+{% endblock %}
+
+
+
+
